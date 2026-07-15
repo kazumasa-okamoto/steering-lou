@@ -1,0 +1,1502 @@
+[
+  {
+    "ja": "今日は友達と昼ご飯を食べる。",
+    "lou": "トゥデイはフレンドとランチをイートする。",
+    "en": "Today I will eat lunch with my friend."
+  },
+  {
+    "ja": "今日は友達と映画を見る。",
+    "lou": "トゥデイはフレンドとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my friend."
+  },
+  {
+    "ja": "今日は友達と音楽を聞く。",
+    "lou": "トゥデイはフレンドとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my friend."
+  },
+  {
+    "ja": "今日は友達と公園を歩く。",
+    "lou": "トゥデイはフレンドとパークをウォークする。",
+    "en": "Today I will walk in the park with my friend."
+  },
+  {
+    "ja": "今日は友達と写真を撮る。",
+    "lou": "トゥデイはフレンドとフォトをテイクする。",
+    "en": "Today I will take photos with my friend."
+  },
+  {
+    "ja": "今日は友達と本を読む。",
+    "lou": "トゥデイはフレンドとブックをリードする。",
+    "en": "Today I will read a book with my friend."
+  },
+  {
+    "ja": "今日は友達と夕食を作る。",
+    "lou": "トゥデイはフレンドとディナーをクックする。",
+    "en": "Today I will cook dinner with my friend."
+  },
+  {
+    "ja": "今日は友達とお茶を飲む。",
+    "lou": "トゥデイはフレンドとティーをドリンクする。",
+    "en": "Today I will drink tea with my friend."
+  },
+  {
+    "ja": "今日は友達と買い物に行く。",
+    "lou": "トゥデイはフレンドとショッピングにゴーする。",
+    "en": "Today I will go shopping with my friend."
+  },
+  {
+    "ja": "今日は友達と宿題を終わらせる。",
+    "lou": "トゥデイはフレンドとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my friend."
+  },
+  {
+    "ja": "今日は家族と昼ご飯を食べる。",
+    "lou": "トゥデイはファミリーとランチをイートする。",
+    "en": "Today I will eat lunch with my family."
+  },
+  {
+    "ja": "今日は家族と映画を見る。",
+    "lou": "トゥデイはファミリーとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my family."
+  },
+  {
+    "ja": "今日は家族と音楽を聞く。",
+    "lou": "トゥデイはファミリーとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my family."
+  },
+  {
+    "ja": "今日は家族と公園を歩く。",
+    "lou": "トゥデイはファミリーとパークをウォークする。",
+    "en": "Today I will walk in the park with my family."
+  },
+  {
+    "ja": "今日は家族と写真を撮る。",
+    "lou": "トゥデイはファミリーとフォトをテイクする。",
+    "en": "Today I will take photos with my family."
+  },
+  {
+    "ja": "今日は家族と本を読む。",
+    "lou": "トゥデイはファミリーとブックをリードする。",
+    "en": "Today I will read a book with my family."
+  },
+  {
+    "ja": "今日は家族と夕食を作る。",
+    "lou": "トゥデイはファミリーとディナーをクックする。",
+    "en": "Today I will cook dinner with my family."
+  },
+  {
+    "ja": "今日は家族とお茶を飲む。",
+    "lou": "トゥデイはファミリーとティーをドリンクする。",
+    "en": "Today I will drink tea with my family."
+  },
+  {
+    "ja": "今日は家族と買い物に行く。",
+    "lou": "トゥデイはファミリーとショッピングにゴーする。",
+    "en": "Today I will go shopping with my family."
+  },
+  {
+    "ja": "今日は家族と宿題を終わらせる。",
+    "lou": "トゥデイはファミリーとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my family."
+  },
+  {
+    "ja": "今日は妹と昼ご飯を食べる。",
+    "lou": "トゥデイはシスターとランチをイートする。",
+    "en": "Today I will eat lunch with my sister."
+  },
+  {
+    "ja": "今日は妹と映画を見る。",
+    "lou": "トゥデイはシスターとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my sister."
+  },
+  {
+    "ja": "今日は妹と音楽を聞く。",
+    "lou": "トゥデイはシスターとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my sister."
+  },
+  {
+    "ja": "今日は妹と公園を歩く。",
+    "lou": "トゥデイはシスターとパークをウォークする。",
+    "en": "Today I will walk in the park with my sister."
+  },
+  {
+    "ja": "今日は妹と写真を撮る。",
+    "lou": "トゥデイはシスターとフォトをテイクする。",
+    "en": "Today I will take photos with my sister."
+  },
+  {
+    "ja": "今日は妹と本を読む。",
+    "lou": "トゥデイはシスターとブックをリードする。",
+    "en": "Today I will read a book with my sister."
+  },
+  {
+    "ja": "今日は妹と夕食を作る。",
+    "lou": "トゥデイはシスターとディナーをクックする。",
+    "en": "Today I will cook dinner with my sister."
+  },
+  {
+    "ja": "今日は妹とお茶を飲む。",
+    "lou": "トゥデイはシスターとティーをドリンクする。",
+    "en": "Today I will drink tea with my sister."
+  },
+  {
+    "ja": "今日は妹と買い物に行く。",
+    "lou": "トゥデイはシスターとショッピングにゴーする。",
+    "en": "Today I will go shopping with my sister."
+  },
+  {
+    "ja": "今日は妹と宿題を終わらせる。",
+    "lou": "トゥデイはシスターとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my sister."
+  },
+  {
+    "ja": "今日は兄と昼ご飯を食べる。",
+    "lou": "トゥデイはブラザーとランチをイートする。",
+    "en": "Today I will eat lunch with my brother."
+  },
+  {
+    "ja": "今日は兄と映画を見る。",
+    "lou": "トゥデイはブラザーとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my brother."
+  },
+  {
+    "ja": "今日は兄と音楽を聞く。",
+    "lou": "トゥデイはブラザーとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my brother."
+  },
+  {
+    "ja": "今日は兄と公園を歩く。",
+    "lou": "トゥデイはブラザーとパークをウォークする。",
+    "en": "Today I will walk in the park with my brother."
+  },
+  {
+    "ja": "今日は兄と写真を撮る。",
+    "lou": "トゥデイはブラザーとフォトをテイクする。",
+    "en": "Today I will take photos with my brother."
+  },
+  {
+    "ja": "今日は兄と本を読む。",
+    "lou": "トゥデイはブラザーとブックをリードする。",
+    "en": "Today I will read a book with my brother."
+  },
+  {
+    "ja": "今日は兄と夕食を作る。",
+    "lou": "トゥデイはブラザーとディナーをクックする。",
+    "en": "Today I will cook dinner with my brother."
+  },
+  {
+    "ja": "今日は兄とお茶を飲む。",
+    "lou": "トゥデイはブラザーとティーをドリンクする。",
+    "en": "Today I will drink tea with my brother."
+  },
+  {
+    "ja": "今日は兄と買い物に行く。",
+    "lou": "トゥデイはブラザーとショッピングにゴーする。",
+    "en": "Today I will go shopping with my brother."
+  },
+  {
+    "ja": "今日は兄と宿題を終わらせる。",
+    "lou": "トゥデイはブラザーとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my brother."
+  },
+  {
+    "ja": "今日は先生と昼ご飯を食べる。",
+    "lou": "トゥデイはティーチャーとランチをイートする。",
+    "en": "Today I will eat lunch with my teacher."
+  },
+  {
+    "ja": "今日は先生と映画を見る。",
+    "lou": "トゥデイはティーチャーとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my teacher."
+  },
+  {
+    "ja": "今日は先生と音楽を聞く。",
+    "lou": "トゥデイはティーチャーとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my teacher."
+  },
+  {
+    "ja": "今日は先生と公園を歩く。",
+    "lou": "トゥデイはティーチャーとパークをウォークする。",
+    "en": "Today I will walk in the park with my teacher."
+  },
+  {
+    "ja": "今日は先生と写真を撮る。",
+    "lou": "トゥデイはティーチャーとフォトをテイクする。",
+    "en": "Today I will take photos with my teacher."
+  },
+  {
+    "ja": "今日は先生と本を読む。",
+    "lou": "トゥデイはティーチャーとブックをリードする。",
+    "en": "Today I will read a book with my teacher."
+  },
+  {
+    "ja": "今日は先生と夕食を作る。",
+    "lou": "トゥデイはティーチャーとディナーをクックする。",
+    "en": "Today I will cook dinner with my teacher."
+  },
+  {
+    "ja": "今日は先生とお茶を飲む。",
+    "lou": "トゥデイはティーチャーとティーをドリンクする。",
+    "en": "Today I will drink tea with my teacher."
+  },
+  {
+    "ja": "今日は先生と買い物に行く。",
+    "lou": "トゥデイはティーチャーとショッピングにゴーする。",
+    "en": "Today I will go shopping with my teacher."
+  },
+  {
+    "ja": "今日は先生と宿題を終わらせる。",
+    "lou": "トゥデイはティーチャーとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my teacher."
+  },
+  {
+    "ja": "今日は先輩と昼ご飯を食べる。",
+    "lou": "トゥデイはシニアとランチをイートする。",
+    "en": "Today I will eat lunch with my senior."
+  },
+  {
+    "ja": "今日は先輩と映画を見る。",
+    "lou": "トゥデイはシニアとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my senior."
+  },
+  {
+    "ja": "今日は先輩と音楽を聞く。",
+    "lou": "トゥデイはシニアとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my senior."
+  },
+  {
+    "ja": "今日は先輩と公園を歩く。",
+    "lou": "トゥデイはシニアとパークをウォークする。",
+    "en": "Today I will walk in the park with my senior."
+  },
+  {
+    "ja": "今日は先輩と写真を撮る。",
+    "lou": "トゥデイはシニアとフォトをテイクする。",
+    "en": "Today I will take photos with my senior."
+  },
+  {
+    "ja": "今日は先輩と本を読む。",
+    "lou": "トゥデイはシニアとブックをリードする。",
+    "en": "Today I will read a book with my senior."
+  },
+  {
+    "ja": "今日は先輩と夕食を作る。",
+    "lou": "トゥデイはシニアとディナーをクックする。",
+    "en": "Today I will cook dinner with my senior."
+  },
+  {
+    "ja": "今日は先輩とお茶を飲む。",
+    "lou": "トゥデイはシニアとティーをドリンクする。",
+    "en": "Today I will drink tea with my senior."
+  },
+  {
+    "ja": "今日は先輩と買い物に行く。",
+    "lou": "トゥデイはシニアとショッピングにゴーする。",
+    "en": "Today I will go shopping with my senior."
+  },
+  {
+    "ja": "今日は先輩と宿題を終わらせる。",
+    "lou": "トゥデイはシニアとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my senior."
+  },
+  {
+    "ja": "今日は同僚と昼ご飯を食べる。",
+    "lou": "トゥデイはワークフレンドとランチをイートする。",
+    "en": "Today I will eat lunch with my coworker."
+  },
+  {
+    "ja": "今日は同僚と映画を見る。",
+    "lou": "トゥデイはワークフレンドとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my coworker."
+  },
+  {
+    "ja": "今日は同僚と音楽を聞く。",
+    "lou": "トゥデイはワークフレンドとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my coworker."
+  },
+  {
+    "ja": "今日は同僚と公園を歩く。",
+    "lou": "トゥデイはワークフレンドとパークをウォークする。",
+    "en": "Today I will walk in the park with my coworker."
+  },
+  {
+    "ja": "今日は同僚と写真を撮る。",
+    "lou": "トゥデイはワークフレンドとフォトをテイクする。",
+    "en": "Today I will take photos with my coworker."
+  },
+  {
+    "ja": "今日は同僚と本を読む。",
+    "lou": "トゥデイはワークフレンドとブックをリードする。",
+    "en": "Today I will read a book with my coworker."
+  },
+  {
+    "ja": "今日は同僚と夕食を作る。",
+    "lou": "トゥデイはワークフレンドとディナーをクックする。",
+    "en": "Today I will cook dinner with my coworker."
+  },
+  {
+    "ja": "今日は同僚とお茶を飲む。",
+    "lou": "トゥデイはワークフレンドとティーをドリンクする。",
+    "en": "Today I will drink tea with my coworker."
+  },
+  {
+    "ja": "今日は同僚と買い物に行く。",
+    "lou": "トゥデイはワークフレンドとショッピングにゴーする。",
+    "en": "Today I will go shopping with my coworker."
+  },
+  {
+    "ja": "今日は同僚と宿題を終わらせる。",
+    "lou": "トゥデイはワークフレンドとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my coworker."
+  },
+  {
+    "ja": "今日は母と昼ご飯を食べる。",
+    "lou": "トゥデイはマザーとランチをイートする。",
+    "en": "Today I will eat lunch with my mother."
+  },
+  {
+    "ja": "今日は母と映画を見る。",
+    "lou": "トゥデイはマザーとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my mother."
+  },
+  {
+    "ja": "今日は母と音楽を聞く。",
+    "lou": "トゥデイはマザーとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my mother."
+  },
+  {
+    "ja": "今日は母と公園を歩く。",
+    "lou": "トゥデイはマザーとパークをウォークする。",
+    "en": "Today I will walk in the park with my mother."
+  },
+  {
+    "ja": "今日は母と写真を撮る。",
+    "lou": "トゥデイはマザーとフォトをテイクする。",
+    "en": "Today I will take photos with my mother."
+  },
+  {
+    "ja": "今日は母と本を読む。",
+    "lou": "トゥデイはマザーとブックをリードする。",
+    "en": "Today I will read a book with my mother."
+  },
+  {
+    "ja": "今日は母と夕食を作る。",
+    "lou": "トゥデイはマザーとディナーをクックする。",
+    "en": "Today I will cook dinner with my mother."
+  },
+  {
+    "ja": "今日は母とお茶を飲む。",
+    "lou": "トゥデイはマザーとティーをドリンクする。",
+    "en": "Today I will drink tea with my mother."
+  },
+  {
+    "ja": "今日は母と買い物に行く。",
+    "lou": "トゥデイはマザーとショッピングにゴーする。",
+    "en": "Today I will go shopping with my mother."
+  },
+  {
+    "ja": "今日は母と宿題を終わらせる。",
+    "lou": "トゥデイはマザーとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my mother."
+  },
+  {
+    "ja": "今日は父と昼ご飯を食べる。",
+    "lou": "トゥデイはファザーとランチをイートする。",
+    "en": "Today I will eat lunch with my father."
+  },
+  {
+    "ja": "今日は父と映画を見る。",
+    "lou": "トゥデイはファザーとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my father."
+  },
+  {
+    "ja": "今日は父と音楽を聞く。",
+    "lou": "トゥデイはファザーとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my father."
+  },
+  {
+    "ja": "今日は父と公園を歩く。",
+    "lou": "トゥデイはファザーとパークをウォークする。",
+    "en": "Today I will walk in the park with my father."
+  },
+  {
+    "ja": "今日は父と写真を撮る。",
+    "lou": "トゥデイはファザーとフォトをテイクする。",
+    "en": "Today I will take photos with my father."
+  },
+  {
+    "ja": "今日は父と本を読む。",
+    "lou": "トゥデイはファザーとブックをリードする。",
+    "en": "Today I will read a book with my father."
+  },
+  {
+    "ja": "今日は父と夕食を作る。",
+    "lou": "トゥデイはファザーとディナーをクックする。",
+    "en": "Today I will cook dinner with my father."
+  },
+  {
+    "ja": "今日は父とお茶を飲む。",
+    "lou": "トゥデイはファザーとティーをドリンクする。",
+    "en": "Today I will drink tea with my father."
+  },
+  {
+    "ja": "今日は父と買い物に行く。",
+    "lou": "トゥデイはファザーとショッピングにゴーする。",
+    "en": "Today I will go shopping with my father."
+  },
+  {
+    "ja": "今日は父と宿題を終わらせる。",
+    "lou": "トゥデイはファザーとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my father."
+  },
+  {
+    "ja": "今日は隣の人と昼ご飯を食べる。",
+    "lou": "トゥデイはネイバーとランチをイートする。",
+    "en": "Today I will eat lunch with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と映画を見る。",
+    "lou": "トゥデイはネイバーとムービーをウォッチする。",
+    "en": "Today I will watch a movie with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と音楽を聞く。",
+    "lou": "トゥデイはネイバーとミュージックをリッスンする。",
+    "en": "Today I will listen to music with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と公園を歩く。",
+    "lou": "トゥデイはネイバーとパークをウォークする。",
+    "en": "Today I will walk in the park with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と写真を撮る。",
+    "lou": "トゥデイはネイバーとフォトをテイクする。",
+    "en": "Today I will take photos with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と本を読む。",
+    "lou": "トゥデイはネイバーとブックをリードする。",
+    "en": "Today I will read a book with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と夕食を作る。",
+    "lou": "トゥデイはネイバーとディナーをクックする。",
+    "en": "Today I will cook dinner with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人とお茶を飲む。",
+    "lou": "トゥデイはネイバーとティーをドリンクする。",
+    "en": "Today I will drink tea with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と買い物に行く。",
+    "lou": "トゥデイはネイバーとショッピングにゴーする。",
+    "en": "Today I will go shopping with my neighbor."
+  },
+  {
+    "ja": "今日は隣の人と宿題を終わらせる。",
+    "lou": "トゥデイはネイバーとホームワークをフィニッシュする。",
+    "en": "Today I will finish homework with my neighbor."
+  },
+  {
+    "ja": "今日は雨なので家にいる。",
+    "lou": "トゥデイはレインなのでホームにステイする。",
+    "en": "Today is rainy, so I will stay home."
+  },
+  {
+    "ja": "今日は晴れなので外に出る。",
+    "lou": "トゥデイはサニーなのでアウトにゴーする。",
+    "en": "Today is sunny, so I will go outside."
+  },
+  {
+    "ja": "今日は曇りなので散歩する。",
+    "lou": "トゥデイはクラウディなのでウォークする。",
+    "en": "Today is cloudy, so I will take a walk."
+  },
+  {
+    "ja": "今日は雪なので温かいお茶を飲む。",
+    "lou": "トゥデイはスノーなのでウォームなティーをドリンクする。",
+    "en": "Today is snowy, so I will drink warm tea."
+  },
+  {
+    "ja": "今日は風が強いので早く帰る。",
+    "lou": "トゥデイはウィンドがストロングなのでアーリーにホームへリターンする。",
+    "en": "Today is windy, so I will go home early."
+  },
+  {
+    "ja": "今日は暑いので冷たい水を飲む。",
+    "lou": "トゥデイはホットなのでコールドなウォーターをドリンクする。",
+    "en": "Today is hot, so I will drink cold water."
+  },
+  {
+    "ja": "今日は寒いので上着を着る。",
+    "lou": "トゥデイはコールドなのでジャケットをウェアする。",
+    "en": "Today is cold, so I will wear a jacket."
+  },
+  {
+    "ja": "今日は涼しいので窓を開ける。",
+    "lou": "トゥデイはクールなのでウィンドウをオープンする。",
+    "en": "Today is cool, so I will open the window."
+  },
+  {
+    "ja": "今日は蒸し暑いので部屋で休む。",
+    "lou": "トゥデイはヒューミッドでホットなのでルームでレストする。",
+    "en": "Today is humid and hot, so I will rest in my room."
+  },
+  {
+    "ja": "今日は気持ちいいので外で昼ご飯を食べる。",
+    "lou": "トゥデイはナイスなのでアウトでランチをイートする。",
+    "en": "Today is pleasant, so I will eat lunch outside."
+  },
+  {
+    "ja": "明日は雨なので家にいる。",
+    "lou": "トゥモローはレインなのでホームにステイする。",
+    "en": "Tomorrow will be rainy, so I will stay home."
+  },
+  {
+    "ja": "明日は晴れなので外に出る。",
+    "lou": "トゥモローはサニーなのでアウトにゴーする。",
+    "en": "Tomorrow will be sunny, so I will go outside."
+  },
+  {
+    "ja": "明日は曇りなので散歩する。",
+    "lou": "トゥモローはクラウディなのでウォークする。",
+    "en": "Tomorrow will be cloudy, so I will take a walk."
+  },
+  {
+    "ja": "明日は雪なので温かいお茶を飲む。",
+    "lou": "トゥモローはスノーなのでウォームなティーをドリンクする。",
+    "en": "Tomorrow will be snowy, so I will drink warm tea."
+  },
+  {
+    "ja": "明日は風が強いので早く帰る。",
+    "lou": "トゥモローはウィンドがストロングなのでアーリーにホームへリターンする。",
+    "en": "Tomorrow will be windy, so I will go home early."
+  },
+  {
+    "ja": "明日は暑いので冷たい水を飲む。",
+    "lou": "トゥモローはホットなのでコールドなウォーターをドリンクする。",
+    "en": "Tomorrow will be hot, so I will drink cold water."
+  },
+  {
+    "ja": "明日は寒いので上着を着る。",
+    "lou": "トゥモローはコールドなのでジャケットをウェアする。",
+    "en": "Tomorrow will be cold, so I will wear a jacket."
+  },
+  {
+    "ja": "明日は涼しいので窓を開ける。",
+    "lou": "トゥモローはクールなのでウィンドウをオープンする。",
+    "en": "Tomorrow will be cool, so I will open the window."
+  },
+  {
+    "ja": "明日は蒸し暑いので部屋で休む。",
+    "lou": "トゥモローはヒューミッドでホットなのでルームでレストする。",
+    "en": "Tomorrow will be humid and hot, so I will rest in my room."
+  },
+  {
+    "ja": "明日は気持ちいいので外で昼ご飯を食べる。",
+    "lou": "トゥモローはナイスなのでアウトでランチをイートする。",
+    "en": "Tomorrow will be pleasant, so I will eat lunch outside."
+  },
+  {
+    "ja": "昨日は雨なので家にいる。",
+    "lou": "イエスタデイはレインなのでホームにステイする。",
+    "en": "Yesterday was rainy, so I stayed home."
+  },
+  {
+    "ja": "昨日は晴れなので外に出る。",
+    "lou": "イエスタデイはサニーなのでアウトにゴーする。",
+    "en": "Yesterday was sunny, so I went outside."
+  },
+  {
+    "ja": "昨日は曇りなので散歩する。",
+    "lou": "イエスタデイはクラウディなのでウォークする。",
+    "en": "Yesterday was cloudy, so I took a walk."
+  },
+  {
+    "ja": "昨日は雪なので温かいお茶を飲む。",
+    "lou": "イエスタデイはスノーなのでウォームなティーをドリンクする。",
+    "en": "Yesterday was snowy, so I drank warm tea."
+  },
+  {
+    "ja": "昨日は風が強いので早く帰る。",
+    "lou": "イエスタデイはウィンドがストロングなのでアーリーにホームへリターンする。",
+    "en": "Yesterday was windy, so I went home early."
+  },
+  {
+    "ja": "昨日は暑いので冷たい水を飲む。",
+    "lou": "イエスタデイはホットなのでコールドなウォーターをドリンクする。",
+    "en": "Yesterday was hot, so I drank cold water."
+  },
+  {
+    "ja": "昨日は寒いので上着を着る。",
+    "lou": "イエスタデイはコールドなのでジャケットをウェアする。",
+    "en": "Yesterday was cold, so I wore a jacket."
+  },
+  {
+    "ja": "昨日は涼しいので窓を開ける。",
+    "lou": "イエスタデイはクールなのでウィンドウをオープンする。",
+    "en": "Yesterday was cool, so I opened the window."
+  },
+  {
+    "ja": "昨日は蒸し暑いので部屋で休む。",
+    "lou": "イエスタデイはヒューミッドでホットなのでルームでレストする。",
+    "en": "Yesterday was humid and hot, so I rested in my room."
+  },
+  {
+    "ja": "昨日は気持ちいいので外で昼ご飯を食べる。",
+    "lou": "イエスタデイはナイスなのでアウトでランチをイートする。",
+    "en": "Yesterday was pleasant, so I ate lunch outside."
+  },
+  {
+    "ja": "試験が終わって、私は嬉しい。",
+    "lou": "テストがフィニッシュして、私はハッピー。",
+    "en": "I am happy because the exam ended."
+  },
+  {
+    "ja": "嬉しいので笑った。",
+    "lou": "ハッピーなのでスマイルした。",
+    "en": "I was happy, so I smiled."
+  },
+  {
+    "ja": "友達に会えて、私は嬉しい。",
+    "lou": "フレンドにミートできて、私はハッピー。",
+    "en": "I am happy because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は嬉しい。",
+    "lou": "ニューなクローズをバイできて、私はハッピー。",
+    "en": "I am happy because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は嬉しい。",
+    "lou": "レインがストップして、私はハッピー。",
+    "en": "I am happy because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は嬉しい。",
+    "lou": "リサーチがプログレスして、私はハッピー。",
+    "en": "I am happy because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は嬉しい。",
+    "lou": "クッキングがグッドにできて、私はハッピー。",
+    "en": "I am happy because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は悲しい。",
+    "lou": "テストがフィニッシュして、私はサッド。",
+    "en": "I am sad because the exam ended."
+  },
+  {
+    "ja": "悲しいので少し泣いた。",
+    "lou": "サッドなので少しクライした。",
+    "en": "I was sad, so I cried a little."
+  },
+  {
+    "ja": "友達に会えて、私は悲しい。",
+    "lou": "フレンドにミートできて、私はサッド。",
+    "en": "I am sad because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は悲しい。",
+    "lou": "ニューなクローズをバイできて、私はサッド。",
+    "en": "I am sad because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は悲しい。",
+    "lou": "レインがストップして、私はサッド。",
+    "en": "I am sad because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は悲しい。",
+    "lou": "リサーチがプログレスして、私はサッド。",
+    "en": "I am sad because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は悲しい。",
+    "lou": "クッキングがグッドにできて、私はサッド。",
+    "en": "I am sad because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は緊張している。",
+    "lou": "テストがフィニッシュして、私はナーバス。",
+    "en": "I am nervous because the exam ended."
+  },
+  {
+    "ja": "緊張しているので深呼吸した。",
+    "lou": "ナーバスなのでディープブレスした。",
+    "en": "I was nervous, so I took a deep breath."
+  },
+  {
+    "ja": "友達に会えて、私は緊張している。",
+    "lou": "フレンドにミートできて、私はナーバス。",
+    "en": "I am nervous because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は緊張している。",
+    "lou": "ニューなクローズをバイできて、私はナーバス。",
+    "en": "I am nervous because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は緊張している。",
+    "lou": "レインがストップして、私はナーバス。",
+    "en": "I am nervous because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は緊張している。",
+    "lou": "リサーチがプログレスして、私はナーバス。",
+    "en": "I am nervous because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は緊張している。",
+    "lou": "クッキングがグッドにできて、私はナーバス。",
+    "en": "I am nervous because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は疲れている。",
+    "lou": "テストがフィニッシュして、私はタイアード。",
+    "en": "I am tired because the exam ended."
+  },
+  {
+    "ja": "疲れているので早く寝た。",
+    "lou": "タイアードなのでアーリーにスリープした。",
+    "en": "I was tired, so I slept early."
+  },
+  {
+    "ja": "友達に会えて、私は疲れている。",
+    "lou": "フレンドにミートできて、私はタイアード。",
+    "en": "I am tired because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は疲れている。",
+    "lou": "ニューなクローズをバイできて、私はタイアード。",
+    "en": "I am tired because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は疲れている。",
+    "lou": "レインがストップして、私はタイアード。",
+    "en": "I am tired because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は疲れている。",
+    "lou": "リサーチがプログレスして、私はタイアード。",
+    "en": "I am tired because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は疲れている。",
+    "lou": "クッキングがグッドにできて、私はタイアード。",
+    "en": "I am tired because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は安心した。",
+    "lou": "テストがフィニッシュして、私はリリーフした。",
+    "en": "I am relieved because the exam ended."
+  },
+  {
+    "ja": "安心したので肩の力が抜けた。",
+    "lou": "リリーフしたなのでリラックスした。",
+    "en": "I was relieved, so I relaxed."
+  },
+  {
+    "ja": "友達に会えて、私は安心した。",
+    "lou": "フレンドにミートできて、私はリリーフした。",
+    "en": "I am relieved because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は安心した。",
+    "lou": "ニューなクローズをバイできて、私はリリーフした。",
+    "en": "I am relieved because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は安心した。",
+    "lou": "レインがストップして、私はリリーフした。",
+    "en": "I am relieved because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は安心した。",
+    "lou": "リサーチがプログレスして、私はリリーフした。",
+    "en": "I am relieved because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は安心した。",
+    "lou": "クッキングがグッドにできて、私はリリーフした。",
+    "en": "I am relieved because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私はわくわくしている。",
+    "lou": "テストがフィニッシュして、私はエキサイトしている。",
+    "en": "I am excited because the exam ended."
+  },
+  {
+    "ja": "わくわくしているので予定を確認した。",
+    "lou": "エキサイトしているなのでスケジュールをチェックした。",
+    "en": "I was excited, so I checked my schedule."
+  },
+  {
+    "ja": "友達に会えて、私はわくわくしている。",
+    "lou": "フレンドにミートできて、私はエキサイトしている。",
+    "en": "I am excited because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私はわくわくしている。",
+    "lou": "ニューなクローズをバイできて、私はエキサイトしている。",
+    "en": "I am excited because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私はわくわくしている。",
+    "lou": "レインがストップして、私はエキサイトしている。",
+    "en": "I am excited because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私はわくわくしている。",
+    "lou": "リサーチがプログレスして、私はエキサイトしている。",
+    "en": "I am excited because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私はわくわくしている。",
+    "lou": "クッキングがグッドにできて、私はエキサイトしている。",
+    "en": "I am excited because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は驚いた。",
+    "lou": "テストがフィニッシュして、私はサプライズした。",
+    "en": "I am surprised because the exam ended."
+  },
+  {
+    "ja": "驚いたので何度も聞き返した。",
+    "lou": "サプライズしたなのでアゲインでリッスンした。",
+    "en": "I was surprised, so I asked again many times."
+  },
+  {
+    "ja": "友達に会えて、私は驚いた。",
+    "lou": "フレンドにミートできて、私はサプライズした。",
+    "en": "I am surprised because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は驚いた。",
+    "lou": "ニューなクローズをバイできて、私はサプライズした。",
+    "en": "I am surprised because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は驚いた。",
+    "lou": "レインがストップして、私はサプライズした。",
+    "en": "I am surprised because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は驚いた。",
+    "lou": "リサーチがプログレスして、私はサプライズした。",
+    "en": "I am surprised because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は驚いた。",
+    "lou": "クッキングがグッドにできて、私はサプライズした。",
+    "en": "I am surprised because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は迷っている。",
+    "lou": "テストがフィニッシュして、私はコンフューズしている。",
+    "en": "I am unsure because the exam ended."
+  },
+  {
+    "ja": "迷っているので友達に相談した。",
+    "lou": "コンフューズしているなのでフレンドにトークした。",
+    "en": "I was unsure, so I talked to my friend."
+  },
+  {
+    "ja": "友達に会えて、私は迷っている。",
+    "lou": "フレンドにミートできて、私はコンフューズしている。",
+    "en": "I am unsure because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は迷っている。",
+    "lou": "ニューなクローズをバイできて、私はコンフューズしている。",
+    "en": "I am unsure because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は迷っている。",
+    "lou": "レインがストップして、私はコンフューズしている。",
+    "en": "I am unsure because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は迷っている。",
+    "lou": "リサーチがプログレスして、私はコンフューズしている。",
+    "en": "I am unsure because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は迷っている。",
+    "lou": "クッキングがグッドにできて、私はコンフューズしている。",
+    "en": "I am unsure because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は怒っている。",
+    "lou": "テストがフィニッシュして、私はアングリー。",
+    "en": "I am angry because the exam ended."
+  },
+  {
+    "ja": "怒っているので少し黙った。",
+    "lou": "アングリーなので少しサイレントになった。",
+    "en": "I was angry, so I became quiet for a while."
+  },
+  {
+    "ja": "友達に会えて、私は怒っている。",
+    "lou": "フレンドにミートできて、私はアングリー。",
+    "en": "I am angry because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は怒っている。",
+    "lou": "ニューなクローズをバイできて、私はアングリー。",
+    "en": "I am angry because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は怒っている。",
+    "lou": "レインがストップして、私はアングリー。",
+    "en": "I am angry because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は怒っている。",
+    "lou": "リサーチがプログレスして、私はアングリー。",
+    "en": "I am angry because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は怒っている。",
+    "lou": "クッキングがグッドにできて、私はアングリー。",
+    "en": "I am angry because the cooking went well."
+  },
+  {
+    "ja": "試験が終わって、私は楽しい。",
+    "lou": "テストがフィニッシュして、私はファン。",
+    "en": "I am fun because the exam ended."
+  },
+  {
+    "ja": "楽しいので時間を忘れた。",
+    "lou": "ファンなのでタイムをフォーゲットした。",
+    "en": "I was fun, so I forgot the time."
+  },
+  {
+    "ja": "友達に会えて、私は楽しい。",
+    "lou": "フレンドにミートできて、私はファン。",
+    "en": "I am fun because I met my friend."
+  },
+  {
+    "ja": "新しい服を買えて、私は楽しい。",
+    "lou": "ニューなクローズをバイできて、私はファン。",
+    "en": "I am fun because I bought new clothes."
+  },
+  {
+    "ja": "雨が止んで、私は楽しい。",
+    "lou": "レインがストップして、私はファン。",
+    "en": "I am fun because the rain stopped."
+  },
+  {
+    "ja": "研究が進んで、私は楽しい。",
+    "lou": "リサーチがプログレスして、私はファン。",
+    "en": "I am fun because my research progressed."
+  },
+  {
+    "ja": "料理がうまくできて、私は楽しい。",
+    "lou": "クッキングがグッドにできて、私はファン。",
+    "en": "I am fun because the cooking went well."
+  },
+  {
+    "ja": "今日は日本語の論文を読む。",
+    "lou": "トゥデイはジャパニーズのペーパーをリードする。",
+    "en": "Today I will read a Japanese paper."
+  },
+  {
+    "ja": "明日は日本語の論文を読む予定です。",
+    "lou": "トゥモローはジャパニーズのペーパーをリードするプランです。",
+    "en": "Tomorrow I plan to read a Japanese paper."
+  },
+  {
+    "ja": "昨日は日本語の論文を読むました。",
+    "lou": "イエスタデイはジャパニーズのペーパーをリードするました。",
+    "en": "Yesterday I readed a Japanese paper."
+  },
+  {
+    "ja": "今日は英語の資料を確認する。",
+    "lou": "トゥデイはイングリッシュのマテリアルをチェックする。",
+    "en": "Today I will check English material."
+  },
+  {
+    "ja": "明日は英語の資料を確認する予定です。",
+    "lou": "トゥモローはイングリッシュのマテリアルをチェックするプランです。",
+    "en": "Tomorrow I plan to check English material."
+  },
+  {
+    "ja": "昨日は英語の資料を確認するました。",
+    "lou": "イエスタデイはイングリッシュのマテリアルをチェックするました。",
+    "en": "Yesterday I checked English material."
+  },
+  {
+    "ja": "今日は実験の結果を比べる。",
+    "lou": "トゥデイはエクスペリメントのリザルトをコンペアする。",
+    "en": "Today I will compare the experiment results."
+  },
+  {
+    "ja": "明日は実験の結果を比べる予定です。",
+    "lou": "トゥモローはエクスペリメントのリザルトをコンペアするプランです。",
+    "en": "Tomorrow I plan to compare the experiment results."
+  },
+  {
+    "ja": "昨日は実験の結果を比べるました。",
+    "lou": "イエスタデイはエクスペリメントのリザルトをコンペアするました。",
+    "en": "Yesterday I compareed the experiment results."
+  },
+  {
+    "ja": "今日は新しい仮説を考える。",
+    "lou": "トゥデイはニューなハイポセシスをシンクする。",
+    "en": "Today I will think about a new hypothesis."
+  },
+  {
+    "ja": "明日は新しい仮説を考える予定です。",
+    "lou": "トゥモローはニューなハイポセシスをシンクするプランです。",
+    "en": "Tomorrow I plan to think about a new hypothesis."
+  },
+  {
+    "ja": "昨日は新しい仮説を考えるました。",
+    "lou": "イエスタデイはニューなハイポセシスをシンクするました。",
+    "en": "Yesterday I think abouted a new hypothesis."
+  },
+  {
+    "ja": "今日は発表の資料を作る。",
+    "lou": "トゥデイはプレゼンのスライドをメイクする。",
+    "en": "Today I will make presentation slides."
+  },
+  {
+    "ja": "明日は発表の資料を作る予定です。",
+    "lou": "トゥモローはプレゼンのスライドをメイクするプランです。",
+    "en": "Tomorrow I plan to make presentation slides."
+  },
+  {
+    "ja": "昨日は発表の資料を作るました。",
+    "lou": "イエスタデイはプレゼンのスライドをメイクするました。",
+    "en": "Yesterday I makeed presentation slides."
+  },
+  {
+    "ja": "今日は難しい問題を解く。",
+    "lou": "トゥデイはディフィカルトなプロブレムをソルブする。",
+    "en": "Today I will solve a difficult problem."
+  },
+  {
+    "ja": "明日は難しい問題を解く予定です。",
+    "lou": "トゥモローはディフィカルトなプロブレムをソルブするプランです。",
+    "en": "Tomorrow I plan to solve a difficult problem."
+  },
+  {
+    "ja": "昨日は難しい問題を解くました。",
+    "lou": "イエスタデイはディフィカルトなプロブレムをソルブするました。",
+    "en": "Yesterday I solveed a difficult problem."
+  },
+  {
+    "ja": "今日は短いメモを書く。",
+    "lou": "トゥデイはショートなメモをライトする。",
+    "en": "Today I will write a short note."
+  },
+  {
+    "ja": "明日は短いメモを書く予定です。",
+    "lou": "トゥモローはショートなメモをライトするプランです。",
+    "en": "Tomorrow I plan to write a short note."
+  },
+  {
+    "ja": "昨日は短いメモを書くました。",
+    "lou": "イエスタデイはショートなメモをライトするました。",
+    "en": "Yesterday I writeed a short note."
+  },
+  {
+    "ja": "今日は大切な予定を覚える。",
+    "lou": "トゥデイはインポータントなスケジュールをリメンバーする。",
+    "en": "Today I will remember an important schedule."
+  },
+  {
+    "ja": "明日は大切な予定を覚える予定です。",
+    "lou": "トゥモローはインポータントなスケジュールをリメンバーするプランです。",
+    "en": "Tomorrow I plan to remember an important schedule."
+  },
+  {
+    "ja": "昨日は大切な予定を覚えるました。",
+    "lou": "イエスタデイはインポータントなスケジュールをリメンバーするました。",
+    "en": "Yesterday I remembered an important schedule."
+  },
+  {
+    "ja": "今日は古いデータを整理する。",
+    "lou": "トゥデイはオールドなデータをオーガナイズする。",
+    "en": "Today I will organize old data."
+  },
+  {
+    "ja": "明日は古いデータを整理する予定です。",
+    "lou": "トゥモローはオールドなデータをオーガナイズするプランです。",
+    "en": "Tomorrow I plan to organize old data."
+  },
+  {
+    "ja": "昨日は古いデータを整理するました。",
+    "lou": "イエスタデイはオールドなデータをオーガナイズするました。",
+    "en": "Yesterday I organizeed old data."
+  },
+  {
+    "ja": "今日は次の課題を始める。",
+    "lou": "トゥデイはネクストなタスクをスタートする。",
+    "en": "Today I will start the next task."
+  },
+  {
+    "ja": "明日は次の課題を始める予定です。",
+    "lou": "トゥモローはネクストなタスクをスタートするプランです。",
+    "en": "Tomorrow I plan to start the next task."
+  },
+  {
+    "ja": "昨日は次の課題を始めるました。",
+    "lou": "イエスタデイはネクストなタスクをスタートするました。",
+    "en": "Yesterday I started the next task."
+  },
+  {
+    "ja": "今日は駅まで歩いて行く。",
+    "lou": "トゥデイはステーションまでウォークしてゴーする。",
+    "en": "Today I will walk to the station."
+  },
+  {
+    "ja": "今日は駅まで自転車で行く。",
+    "lou": "トゥデイはステーションまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the station."
+  },
+  {
+    "ja": "今日は駅まで電車で行く。",
+    "lou": "トゥデイはステーションまでトレインでゴーする。",
+    "en": "Today I will go by train to the station."
+  },
+  {
+    "ja": "今日は駅まで急いで行く。",
+    "lou": "トゥデイはステーションまでハリーしてゴーする。",
+    "en": "Today I will hurry to the station."
+  },
+  {
+    "ja": "今日は駅からゆっくり戻る。",
+    "lou": "トゥデイはステーションからスローにリターンする。",
+    "en": "Today I will return slowly from the station."
+  },
+  {
+    "ja": "今日は学校まで歩いて行く。",
+    "lou": "トゥデイはスクールまでウォークしてゴーする。",
+    "en": "Today I will walk to school."
+  },
+  {
+    "ja": "今日は学校まで自転車で行く。",
+    "lou": "トゥデイはスクールまでバイクでゴーする。",
+    "en": "Today I will ride a bike to school."
+  },
+  {
+    "ja": "今日は学校まで電車で行く。",
+    "lou": "トゥデイはスクールまでトレインでゴーする。",
+    "en": "Today I will go by train to school."
+  },
+  {
+    "ja": "今日は学校まで急いで行く。",
+    "lou": "トゥデイはスクールまでハリーしてゴーする。",
+    "en": "Today I will hurry to school."
+  },
+  {
+    "ja": "今日は学校からゆっくり戻る。",
+    "lou": "トゥデイはスクールからスローにリターンする。",
+    "en": "Today I will return slowly from school."
+  },
+  {
+    "ja": "今日は図書館まで歩いて行く。",
+    "lou": "トゥデイはライブラリーまでウォークしてゴーする。",
+    "en": "Today I will walk to the library."
+  },
+  {
+    "ja": "今日は図書館まで自転車で行く。",
+    "lou": "トゥデイはライブラリーまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the library."
+  },
+  {
+    "ja": "今日は図書館まで電車で行く。",
+    "lou": "トゥデイはライブラリーまでトレインでゴーする。",
+    "en": "Today I will go by train to the library."
+  },
+  {
+    "ja": "今日は図書館まで急いで行く。",
+    "lou": "トゥデイはライブラリーまでハリーしてゴーする。",
+    "en": "Today I will hurry to the library."
+  },
+  {
+    "ja": "今日は図書館からゆっくり戻る。",
+    "lou": "トゥデイはライブラリーからスローにリターンする。",
+    "en": "Today I will return slowly from the library."
+  },
+  {
+    "ja": "今日は公園まで歩いて行く。",
+    "lou": "トゥデイはパークまでウォークしてゴーする。",
+    "en": "Today I will walk to the park."
+  },
+  {
+    "ja": "今日は公園まで自転車で行く。",
+    "lou": "トゥデイはパークまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the park."
+  },
+  {
+    "ja": "今日は公園まで電車で行く。",
+    "lou": "トゥデイはパークまでトレインでゴーする。",
+    "en": "Today I will go by train to the park."
+  },
+  {
+    "ja": "今日は公園まで急いで行く。",
+    "lou": "トゥデイはパークまでハリーしてゴーする。",
+    "en": "Today I will hurry to the park."
+  },
+  {
+    "ja": "今日は公園からゆっくり戻る。",
+    "lou": "トゥデイはパークからスローにリターンする。",
+    "en": "Today I will return slowly from the park."
+  },
+  {
+    "ja": "今日は海まで歩いて行く。",
+    "lou": "トゥデイはシーまでウォークしてゴーする。",
+    "en": "Today I will walk to the sea."
+  },
+  {
+    "ja": "今日は海まで自転車で行く。",
+    "lou": "トゥデイはシーまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the sea."
+  },
+  {
+    "ja": "今日は海まで電車で行く。",
+    "lou": "トゥデイはシーまでトレインでゴーする。",
+    "en": "Today I will go by train to the sea."
+  },
+  {
+    "ja": "今日は海まで急いで行く。",
+    "lou": "トゥデイはシーまでハリーしてゴーする。",
+    "en": "Today I will hurry to the sea."
+  },
+  {
+    "ja": "今日は海からゆっくり戻る。",
+    "lou": "トゥデイはシーからスローにリターンする。",
+    "en": "Today I will return slowly from the sea."
+  },
+  {
+    "ja": "今日は山まで歩いて行く。",
+    "lou": "トゥデイはマウンテンまでウォークしてゴーする。",
+    "en": "Today I will walk to the mountain."
+  },
+  {
+    "ja": "今日は山まで自転車で行く。",
+    "lou": "トゥデイはマウンテンまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the mountain."
+  },
+  {
+    "ja": "今日は山まで電車で行く。",
+    "lou": "トゥデイはマウンテンまでトレインでゴーする。",
+    "en": "Today I will go by train to the mountain."
+  },
+  {
+    "ja": "今日は山まで急いで行く。",
+    "lou": "トゥデイはマウンテンまでハリーしてゴーする。",
+    "en": "Today I will hurry to the mountain."
+  },
+  {
+    "ja": "今日は山からゆっくり戻る。",
+    "lou": "トゥデイはマウンテンからスローにリターンする。",
+    "en": "Today I will return slowly from the mountain."
+  },
+  {
+    "ja": "今日は店まで歩いて行く。",
+    "lou": "トゥデイはショップまでウォークしてゴーする。",
+    "en": "Today I will walk to the shop."
+  },
+  {
+    "ja": "今日は店まで自転車で行く。",
+    "lou": "トゥデイはショップまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the shop."
+  },
+  {
+    "ja": "今日は店まで電車で行く。",
+    "lou": "トゥデイはショップまでトレインでゴーする。",
+    "en": "Today I will go by train to the shop."
+  },
+  {
+    "ja": "今日は店まで急いで行く。",
+    "lou": "トゥデイはショップまでハリーしてゴーする。",
+    "en": "Today I will hurry to the shop."
+  },
+  {
+    "ja": "今日は店からゆっくり戻る。",
+    "lou": "トゥデイはショップからスローにリターンする。",
+    "en": "Today I will return slowly from the shop."
+  },
+  {
+    "ja": "今日は病院まで歩いて行く。",
+    "lou": "トゥデイはホスピタルまでウォークしてゴーする。",
+    "en": "Today I will walk to the hospital."
+  },
+  {
+    "ja": "今日は病院まで自転車で行く。",
+    "lou": "トゥデイはホスピタルまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the hospital."
+  },
+  {
+    "ja": "今日は病院まで電車で行く。",
+    "lou": "トゥデイはホスピタルまでトレインでゴーする。",
+    "en": "Today I will go by train to the hospital."
+  },
+  {
+    "ja": "今日は病院まで急いで行く。",
+    "lou": "トゥデイはホスピタルまでハリーしてゴーする。",
+    "en": "Today I will hurry to the hospital."
+  },
+  {
+    "ja": "今日は病院からゆっくり戻る。",
+    "lou": "トゥデイはホスピタルからスローにリターンする。",
+    "en": "Today I will return slowly from the hospital."
+  },
+  {
+    "ja": "今日は研究室まで歩いて行く。",
+    "lou": "トゥデイはラボまでウォークしてゴーする。",
+    "en": "Today I will walk to the lab."
+  },
+  {
+    "ja": "今日は研究室まで自転車で行く。",
+    "lou": "トゥデイはラボまでバイクでゴーする。",
+    "en": "Today I will ride a bike to the lab."
+  },
+  {
+    "ja": "今日は研究室まで電車で行く。",
+    "lou": "トゥデイはラボまでトレインでゴーする。",
+    "en": "Today I will go by train to the lab."
+  },
+  {
+    "ja": "今日は研究室まで急いで行く。",
+    "lou": "トゥデイはラボまでハリーしてゴーする。",
+    "en": "Today I will hurry to the lab."
+  },
+  {
+    "ja": "今日は研究室からゆっくり戻る。",
+    "lou": "トゥデイはラボからスローにリターンする。",
+    "en": "Today I will return slowly from the lab."
+  },
+  {
+    "ja": "今日は友達の家まで歩いて行く。",
+    "lou": "トゥデイはフレンドのホームまでウォークしてゴーする。",
+    "en": "Today I will walk to my friend's house."
+  },
+  {
+    "ja": "今日は友達の家まで自転車で行く。",
+    "lou": "トゥデイはフレンドのホームまでバイクでゴーする。",
+    "en": "Today I will ride a bike to my friend's house."
+  },
+  {
+    "ja": "今日は友達の家まで電車で行く。",
+    "lou": "トゥデイはフレンドのホームまでトレインでゴーする。",
+    "en": "Today I will go by train to my friend's house."
+  },
+  {
+    "ja": "今日は友達の家まで急いで行く。",
+    "lou": "トゥデイはフレンドのホームまでハリーしてゴーする。",
+    "en": "Today I will hurry to my friend's house."
+  },
+  {
+    "ja": "今日は友達の家からゆっくり戻る。",
+    "lou": "トゥデイはフレンドのホームからスローにリターンする。",
+    "en": "Today I will return slowly from my friend's house."
+  },
+  {
+    "ja": "今日はカレーを食べたい。",
+    "lou": "トゥデイはカレーをイートしたい。",
+    "en": "Today I want to eat curry."
+  },
+  {
+    "ja": "今日はカレーを作りたい。",
+    "lou": "トゥデイはカレーをクックしたい。",
+    "en": "Today I want to cook curry."
+  },
+  {
+    "ja": "今日はカレーを買いたい。",
+    "lou": "トゥデイはカレーをバイしたい。",
+    "en": "Today I want to buy curry."
+  },
+  {
+    "ja": "今日はカレーを少し残した。",
+    "lou": "トゥデイはカレーを少しレフトした。",
+    "en": "Today I left a little of the curry."
+  },
+  {
+    "ja": "今日はカレーを友達にあげた。",
+    "lou": "トゥデイはカレーをフレンドにギブした。",
+    "en": "Today I gave some curry to my friend."
+  },
+  {
+    "ja": "今日は魚を食べたい。",
+    "lou": "トゥデイはフィッシュをイートしたい。",
+    "en": "Today I want to eat fish."
+  },
+  {
+    "ja": "今日は魚を作りたい。",
+    "lou": "トゥデイはフィッシュをクックしたい。",
+    "en": "Today I want to cook fish."
+  },
+  {
+    "ja": "今日は魚を買いたい。",
+    "lou": "トゥデイはフィッシュをバイしたい。",
+    "en": "Today I want to buy fish."
+  },
+  {
+    "ja": "今日は魚を少し残した。",
+    "lou": "トゥデイはフィッシュを少しレフトした。",
+    "en": "Today I left a little of the fish."
+  },
+  {
+    "ja": "今日は魚を友達にあげた。",
+    "lou": "トゥデイはフィッシュをフレンドにギブした。",
+    "en": "Today I gave some fish to my friend."
+  },
+  {
+    "ja": "今日は肉を食べたい。",
+    "lou": "トゥデイはミートをイートしたい。",
+    "en": "Today I want to eat meat."
+  },
+  {
+    "ja": "今日は肉を作りたい。",
+    "lou": "トゥデイはミートをクックしたい。",
+    "en": "Today I want to cook meat."
+  },
+  {
+    "ja": "今日は肉を買いたい。",
+    "lou": "トゥデイはミートをバイしたい。",
+    "en": "Today I want to buy meat."
+  },
+  {
+    "ja": "今日は肉を少し残した。",
+    "lou": "トゥデイはミートを少しレフトした。",
+    "en": "Today I left a little of the meat."
+  },
+  {
+    "ja": "今日は肉を友達にあげた。",
+    "lou": "トゥデイはミートをフレンドにギブした。",
+    "en": "Today I gave some meat to my friend."
+  },
+  {
+    "ja": "今日は野菜を食べたい。",
+    "lou": "トゥデイはベジタブルをイートしたい。",
+    "en": "Today I want to eat vegetables."
+  },
+  {
+    "ja": "今日は野菜を作りたい。",
+    "lou": "トゥデイはベジタブルをクックしたい。",
+    "en": "Today I want to cook vegetables."
+  },
+  {
+    "ja": "今日は野菜を買いたい。",
+    "lou": "トゥデイはベジタブルをバイしたい。",
+    "en": "Today I want to buy vegetables."
+  },
+  {
+    "ja": "今日は野菜を少し残した。",
+    "lou": "トゥデイはベジタブルを少しレフトした。",
+    "en": "Today I left a little of the vegetables."
+  },
+  {
+    "ja": "今日は野菜を友達にあげた。",
+    "lou": "トゥデイはベジタブルをフレンドにギブした。",
+    "en": "Today I gave some vegetables to my friend."
+  }
+]

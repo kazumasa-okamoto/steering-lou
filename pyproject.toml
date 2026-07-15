@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lou-steering"
+version = "0.1.0"
+description = "Small Lou-go activation steering experiment for Qwen3-8B"
+requires-python = ">=3.10"
+
+[project.scripts]
+lou-steering = "lou_steering.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

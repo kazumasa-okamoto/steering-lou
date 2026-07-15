@@ -1,0 +1,13 @@
+# Reproduces the Runpod environment used for the Lou-go steering experiment.
+# For torch CUDA wheels, use the matching PyTorch index when installing if needed:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.8.0+cu128
+transformers==4.57.6
+accelerate==1.14.0
+steering-vectors==0.12.2
+matplotlib==3.11.0
+sentencepiece==0.2.2
+protobuf==7.35.1
+pandas==3.0.3
+hf-transfer==0.1.9
