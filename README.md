@@ -1,8 +1,9 @@
-# ルー語 Activation Steering 実験
+# ルー語 Activation Steering
 
 Qwen3-8B に対して、日本語・ルー語・英語の同一意味の短文 triplet から hidden state の差分方向を作り、ルー語方向が英語方向とどの程度重なるかを観察する小規模実験です。
 
-目的は「綺麗にルー語化を成功させること」ではなく、ルー語っぽさが残差ストリーム上の単純な方向として見えるか、またそれが英語方向とどれくらい近いかを見ることです。
+目的はルー語っぽさが残差ストリーム上の単純な方向として見えるか、またそれが英語方向とどれくらい近いかを見ることです。
+それぞれの生成結果も確認します。
 
 ## 構成
 
@@ -58,25 +59,18 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 
 ## 実行
 
-疎通確認だけする場合:
 
 ```bash
 python experiment.py --mode smoke
 ```
 
-小さなsweepを回す場合:
-
 ```bash
 python experiment.py --mode sweep
 ```
 
-必要なら少し追加で見る場合:
-
 ```bash
 python experiment.py --mode extended
 ```
-
-今回の依頼では実行はしていません。コードとデータの準備だけ行っています。
 
 ## 実験設計
 
@@ -111,20 +105,22 @@ $$
 
 Mean poolingは入力本文の平均表現、Final tokenは応答生成直前の文脈表現として解釈します。role token、turn delimiter、assistant generation prompt、BOS/EOSなどはMean pooling対象から除外します。
 
-さらに、各層で $v_{\mathrm{Lou-JA}}$ と $v_{\mathrm{EN-JA}}$ のcosine similarityを計算し、Mean poolingとFinal tokenの違いも比較します。
+さらに、各層で $v_{\mathrm{Lou-JA}}$ と $v_{\mathrm{EN-JA}}$ の cosine similarity を計算し、Mean pooling と Final token の違いも比較します。
 
-また、$v_L = v_{\mathrm{Lou-JA}}$、$v_E = v_{\mathrm{EN-JA}}$ として、$v_L$ を $v_E$ 方向の成分と、それを除いた直交成分に分解します。
+また、$`v_L = v_{\mathrm{Lou-JA}}`$、$`v_E = v_{\mathrm{EN-JA}}`$ として、$`v_L`$ を $`v_E`$ 方向の成分と、それを除いた直交成分に分解します。
 
-$$
- v_{\parallel} = \operatorname{proj}_{v_E}(v_L)
- = \frac{v_L^\top v_E}{\|v_E\|^2}v_E
-$$
 
 $$
- v_{\perp} = v_L - v_{\parallel}
+v_{\parallel}
+= \mathrm{proj}_{v_E}(v_L)
+= \frac{v_L^\top v_E}{\lVert v_E \rVert^2}v_E
 $$
 
-$v_{\perp}$ はEN-JA方向と直交するLou-JA成分として扱います。数値確認として、各層で次がほぼ0になることを確認します。
+$$
+v_{\perp} = v_L - v_{\parallel}
+$$
+
+$v_{\perp}$ は、EN-JA 方向の成分を $v_L$ から除去した、$v_E$ に直交する Lou-JA 成分として扱います。数値的な確認として、各層で次の値がほぼ 0 になることを確認します。
 
 $$
 \cos(v_{\perp}, v_E) \approx 0
