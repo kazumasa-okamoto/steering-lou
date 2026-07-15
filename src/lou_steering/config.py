@@ -49,15 +49,15 @@ def mode_settings(mode: str, selected_layers: list[int]) -> ModeSettings:
     if mode == "extended":
         return ModeSettings(
             triplet_limit=None,
-            steering_layers=[selected_layers[1], selected_layers[2], selected_layers[3]],
-            coefficients=[0.0, 0.25, 0.5, 0.75, 1.0],
+            steering_layers=[selected_layers[2], selected_layers[3]],
+            coefficients=[-1.0, -0.5, 0.0, 0.5, 1.0, 2.0],
             prompt_count=20,
             max_new_tokens=80,
         )
     return ModeSettings(
         triplet_limit=None,
-        steering_layers=selected_layers,
-        coefficients=[-0.5, -0.2, 0.0, 0.05, 0.1, 0.2, 0.5, 1.0],
+        steering_layers=[selected_layers[1], selected_layers[4]],
+        coefficients=[-1.0, -0.5, 0.0, 0.5, 1.0, 2.0],
         prompt_count=50,
         max_new_tokens=80,
     )

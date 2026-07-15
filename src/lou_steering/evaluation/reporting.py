@@ -49,15 +49,27 @@ def mean(rows: list[dict[str, Any]], key: str) -> float:
 
 
 def plot_ratio_sweeps(summary: list[dict[str, Any]], mode: str, out_dir: Path) -> None:
-    for pooling in sorted({row["pooling"] for row in summary}):
-        pooling_rows = [row for row in summary if row["pooling"] == pooling]
+    baseline_rows = [row for row in summary if row["direction"] == "baseline"]
+    steering_rows = [row for row in summary if row["direction"] != "baseline"]
+
+    for pooling in sorted({row["pooling"] for row in steering_rows}):
+        pooling_rows = [row for row in steering_rows if row["pooling"] == pooling]
         for layer in sorted({row["layer"] for row in pooling_rows}):
             layer_rows = [row for row in pooling_rows if row["layer"] == layer]
+            coefficient_values = sorted({row["coefficient"] for row in layer_rows})
             for metric_key, ylabel in RATIO_METRICS.items():
                 summary_key = f"mean_{metric_key}"
                 plt.figure(figsize=(9, 5))
+                if baseline_rows and coefficient_values:
+                    baseline_y = mean(baseline_rows, summary_key)
+                    plt.plot(
+                        [min(coefficient_values), max(coefficient_values)],
+                        [baseline_y, baseline_y],
+                        linestyle="--",
+                        color="black",
+                        label="baseline",
+                    )
                 for direction in [
-                    "baseline",
                     "lou_minus_ja",
                     "en_minus_ja",
                     "lou_parallel_en",

@@ -143,12 +143,8 @@ def generate_steering_comparison(
         top_p=top_p,
         max_new_tokens=max_new_tokens,
     )
-    records = expand_baseline_rows(
-        baseline_rows=baseline_rows,
-        poolings=POOLING_METHODS,
-        layers=steering_layers,
-        coefficients=coefficients,
-    )
+    records = tag_baseline_rows(baseline_rows)
+    steering_coefficients = [coefficient for coefficient in coefficients if coefficient != 0.0]
 
     for pooling in POOLING_METHODS:
         for direction, vector in {
@@ -165,7 +161,7 @@ def generate_steering_comparison(
                     pooling=pooling,
                     direction=direction,
                     layers=steering_layers,
-                    coefficients=coefficients,
+                    coefficients=steering_coefficients,
                     prompts=prompts,
                     seed=seed,
                     temperature=temperature,
@@ -213,27 +209,17 @@ def generate_baseline_once(
     return rows
 
 
-def expand_baseline_rows(
-    baseline_rows: list[dict[str, Any]],
-    poolings: list[str],
-    layers: list[int],
-    coefficients: list[float],
-) -> list[dict[str, Any]]:
-    expanded = []
-    for pooling in poolings:
-        for layer in layers:
-            for coefficient in coefficients:
-                for row in baseline_rows:
-                    expanded.append(
-                        {
-                            "pooling": pooling,
-                            "direction": "baseline",
-                            "layer": layer,
-                            "coefficient": coefficient,
-                            **row,
-                        }
-                    )
-    return expanded
+def tag_baseline_rows(baseline_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [
+        {
+            "pooling": "baseline",
+            "direction": "baseline",
+            "layer": -1,
+            "coefficient": 0.0,
+            **row,
+        }
+        for row in baseline_rows
+    ]
 
 
 def generate_sweep(

@@ -59,14 +59,19 @@ pip install -r requirements.txt --extra-index-url https://download.pytorch.org/w
 
 ## 実行
 
+`smoke` は疎通確認用です。少数のtriplet、1つのlayer、1つの評価promptだけで、モデルロード、hidden state抽出、vector作成、steering生成、summary/graph出力までが壊れていないかを短時間で確認します。
 
 ```bash
 python experiment.py --mode smoke
 ```
 
+`sweep` は本番用の軽量sweepです。300件のtripletで全層のvector/cosine/projectionを作り、介入layerを少数に絞って50件の評価promptに対するsteering結果を比較します。
+
 ```bash
 python experiment.py --mode sweep
 ```
+
+`extended` は追加確認用です。300件のtripletは使いつつ、評価prompt数を減らし、`sweep` とは少し違う中盤layerを見ます。`sweep` の結果を見た後に、層の違いをもう少し確認したいときの補助モードです。
 
 ```bash
 python experiment.py --mode extended
@@ -144,7 +149,7 @@ $$
 
 50件の評価promptは、ベクトル生成用のtriplet短文と完全一致しないようにしています。
 
-baseline生成は各promptにつき一度だけ行います。summaryやグラフ上では各pooling/layer/coefficientへ展開しますが、同じbaselineを何度も再生成しません。
+baseline生成は各promptにつき一度だけ行い、JSON上でも単独のbaseline行として保存します。グラフではそのbaseline平均を各layer/coefficient sweep上の水平線として重ねます。
 
 steering適用は `steering-vectors` の `SteeringVector.apply` を使います。独自forward hookは実装していません。
 
