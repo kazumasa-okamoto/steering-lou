@@ -2,6 +2,8 @@
 
 Qwen3-8B に対して、日本語・ルー語・英語の同一意味の短文 triplet から hidden state の差分方向を作り、ルー語方向が英語方向とどの程度重なるかを観察する小規模実験です。
 
+実験は RunPod 上の NVIDIA GeForce RTX 4090 を使用し、Docker イメージ `runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404` の環境で実行しました。
+
 ## 構成
 
 ```text
