@@ -9,7 +9,7 @@ from typing import Any
 
 import torch
 
-from lou_steering.constants import OUT_DIR
+from constants import OUT_DIR
 
 
 def shell(cmd: list[str]) -> str:

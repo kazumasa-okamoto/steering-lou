@@ -1,4 +1,4 @@
-from lou_steering.steering.triplet_vectors import (
+from steering.triplet_vectors import (
     TripletSteeringVectors,
     cosine_similarity_by_layer,
     projection_check_by_layer,

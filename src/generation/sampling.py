@@ -6,7 +6,7 @@ from typing import Any
 
 import torch
 
-from lou_steering.data.chat import prompt_text
+from data.chat import prompt_text
 
 
 def set_seed(seed: int) -> None:

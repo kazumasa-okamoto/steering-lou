@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from lou_steering.constants import TRIPLET_PATH
+from constants import TRIPLET_PATH
 
 REQUIRED_TRIPLET_KEYS = {"ja", "lou", "en"}
 

@@ -8,8 +8,8 @@ import torch
 import torch.nn.functional as F
 from steering_vectors import SteeringVector, record_activations
 
-from lou_steering.constants import LAYER_TYPE
-from lou_steering.data.chat import representation_text
+from constants import LAYER_TYPE
+from data.chat import representation_text
 
 PoolingMethod = Literal["mean", "final"]
 
@@ -62,7 +62,7 @@ def content_token_mask_by_prefix(
 ) -> torch.Tensor:
     # Fallback for non-fast tokenizers without offset mapping. Qwen tokenizers should
     # normally use the offset path above.
-    from lou_steering.data.chat import representation_text
+    from data.chat import representation_text
 
     full_ids = encoded["input_ids"][0]
     empty_text = representation_text(tokenizer, "")

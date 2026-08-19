@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
+from constants import SYSTEM_PROMPT
+
 
 def apply_chat_template(
     tokenizer: Any, messages: list[dict[str, str]], add_generation_prompt: bool
@@ -26,9 +28,16 @@ def representation_text(tokenizer: Any, sentence: str) -> str:
     )
 
 
+def generation_messages(prompt: str) -> list[dict[str, str]]:
+    return [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": prompt},
+    ]
+
+
 def prompt_text(tokenizer: Any, prompt: str) -> str:
     return apply_chat_template(
         tokenizer,
-        [{"role": "user", "content": prompt}],
+        generation_messages(prompt),
         add_generation_prompt=True,
     )

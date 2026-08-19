@@ -9,7 +9,10 @@ description = "Small Lou-go activation steering experiment for Qwen3-8B"
 requires-python = ">=3.10"
 
 [project.scripts]
-lou-steering = "lou_steering.cli:main"
+lou-steering = "cli:main"
+
+[tool.setuptools]
+py-modules = ["cli", "config", "constants"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -4,6 +4,7 @@ MODEL_ID = "Qwen/Qwen3-8B"
 OUT_DIR = Path("outputs")
 TRIPLET_PATH = Path("lou_triplets.json")
 LAYER_TYPE = "decoder_block"
+SYSTEM_PROMPT = "次の質問に対して100字以内で簡潔に答えてください"
 
 GENERATION_PROMPTS = [
     "朝の過ごし方を短く説明してください。",

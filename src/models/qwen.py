@@ -9,7 +9,7 @@ from steering_vectors import guess_and_enhance_layer_config
 from steering_vectors.layer_matching import collect_matching_layers
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from lou_steering.constants import LAYER_TYPE, MODEL_ID, OUT_DIR
+from constants import LAYER_TYPE, MODEL_ID, OUT_DIR
 
 
 def load_model_and_tokenizer(model_id: str = MODEL_ID) -> tuple[Any, Any]:

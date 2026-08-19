@@ -8,19 +8,26 @@ from typing import Any
 import torch
 from steering_vectors import SteeringVector, guess_and_enhance_layer_config
 
-from lou_steering.config import RunConfig, choose_layers, mode_settings
-from lou_steering.constants import GENERATION_PROMPTS, LAYER_TYPE, MODEL_ID, OUT_DIR
-from lou_steering.data.pairs import load_triplets
-from lou_steering.evaluation.metrics import score_output
-from lou_steering.evaluation.reporting import (
+from config import RunConfig, choose_layers, mode_settings
+from constants import (
+    GENERATION_PROMPTS,
+    LAYER_TYPE,
+    MODEL_ID,
+    OUT_DIR,
+    SYSTEM_PROMPT,
+)
+from data.chat import generation_messages
+from data.pairs import load_triplets
+from evaluation.metrics import score_output
+from evaluation.reporting import (
     save_cosine_summary,
     save_projection_summary,
     summarize_results,
 )
-from lou_steering.generation.sampling import generate_once
-from lou_steering.models.qwen import get_layer_info, load_model_and_tokenizer
-from lou_steering.runtime.environment import save_environment
-from lou_steering.steering.triplet_vectors import (
+from generation.sampling import generate_once
+from models.qwen import get_layer_info, load_model_and_tokenizer
+from runtime.environment import save_environment
+from steering.triplet_vectors import (
     TripletSteeringVectors,
     cosine_similarity_by_layer,
     projection_check_by_layer,
@@ -87,6 +94,7 @@ def run(mode: str) -> None:
         layer_type=LAYER_TYPE,
         residual_matcher=str(layer_info["matcher"]),
         pooling_methods=POOLING_METHODS,
+        system_prompt=SYSTEM_PROMPT,
     )
     (OUT_DIR / f"run_config_{mode}.json").write_text(
         json.dumps(asdict(config), ensure_ascii=False, indent=2), encoding="utf-8"
@@ -108,7 +116,32 @@ def run(mode: str) -> None:
     json_path.write_text(
         json.dumps(generation_records, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+    grouped_json_path = OUT_DIR / f"generations_by_prompt_{mode}.json"
+    grouped_json_path.write_text(
+        json.dumps(group_records_by_prompt(generation_records), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     summarize_results(json_path, mode)
+
+
+def group_records_by_prompt(
+    records: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    grouped: dict[str, dict[str, Any]] = {}
+    for record in records:
+        prompt = record["prompt"]
+        group = grouped.setdefault(
+            prompt,
+            {
+                "prompt": prompt,
+                "messages": record["messages"],
+                "results": [],
+            },
+        )
+        group["results"].append(
+            {key: value for key, value in record.items() if key not in {"prompt", "messages"}}
+        )
+    return list(grouped.values())
 
 
 def move_vectors_to_device(
@@ -193,6 +226,7 @@ def generate_baseline_once(
             max_new_tokens=max_new_tokens,
         )
         row = {
+            "messages": generation_messages(prompt),
             "prompt": prompt,
             "answer": answer,
             "seed": seed + prompt_idx,
@@ -295,6 +329,7 @@ def generate_prompt_batch(
         row = {
             "pooling": pooling,
             "direction": direction,
+            "messages": generation_messages(prompt),
             "prompt": prompt,
             "answer": answer,
             "layer": layer,
